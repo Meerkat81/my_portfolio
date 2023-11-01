@@ -1,0 +1,20 @@
+- title: Spotify Playlist Data
+  url: https://spotify-playlist-fun.netlify.app
+  repo: https://github.com/Meerkat81/spotify-playlist
+  description: A Project using React, HighCharts and Semantic UI, that queries Spotify to render playlist stats.
+  image: spotify-playlist.png
+
+- title: Kiss Rocks backend
+  url:
+  repo: https://github.com/Meerkat81/kiss-rocks-front
+  description: A full stack application, that uses React, HighCharts, Ruby on Rails, and Postgres to record the meta data of songs played on San Antonio Tx, USA, 99.5 FM rock station
+
+- title: Kiss Rocks frontend
+  url:
+  repo: https://github.com/Meerkat81/kiss-rocks
+  description: A full stack application, that uses React, HighCharts, Ruby on Rails, and Postgres to record the meta data of songs played on San Antonio Tx, USA, 99.5 FM rock station
+
+- title: Fake Twitter
+  url:
+  repo: https://github.com/Meerkat81/fake-twitter
+  description: A backend application using Express that replicates a simple twitter like experience.
