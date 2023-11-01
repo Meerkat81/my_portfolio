@@ -7,12 +7,12 @@
 - title: Kiss Rocks backend
   url:
   repo: https://github.com/Meerkat81/kiss-rocks-front
-  description: A full stack application, that uses React, HighCharts, Ruby on Rails, and Postgres to record the meta data of songs played on San Antonio Tx, USA, 99.5 FM rock station
+  description: The Ruby on Rails backend that records the api for 99.5 KISS FM San Antonio Tx USA and provides endpoints for the data.
 
 - title: Kiss Rocks frontend
   url:
   repo: https://github.com/Meerkat81/kiss-rocks
-  description: A full stack application, that uses React, HighCharts, Ruby on Rails, and Postgres to record the meta data of songs played on San Antonio Tx, USA, 99.5 FM rock station
+  description: The React frontend that uses high charts to render data of the kiss rocks api.
 
 - title: Fake Twitter
   url:
