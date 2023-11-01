@@ -1,11 +1,11 @@
 - title: Work
-  url: /index/
+  url: /index
   order: 1
 
 - title: About
-  url: /about/
+  url: /about
   order: 2
 
 - title: Things
-  url: /things/
+  url: /things
   order: 3
