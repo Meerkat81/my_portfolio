@@ -12,10 +12,10 @@
     <li class="nav-item">
       <a
         href="{{ link.url | absolute_url }}"
-        class="nav-link active"
+        class="nav-link {% if page.title == link.title %} active {% endif %}"
         aria-current="page"
-        >{{ link.title }}</a
-      >
+        >{{ link.title }}
+      </a>
     </li>
     {% endfor %}
   </ul>
