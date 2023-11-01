@@ -1,0 +1,22 @@
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a
+    href="/"
+    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+  >
+    <span class="me-3 fs-4">Casey Meurer</span>
+  </a>
+
+  <ul class="nav nav-pills">
+    {% assign mypages = site.data.navigation | sort: "order" %} {% for link in
+    mypages %}
+    <li class="nav-item">
+      <a
+        href="{{ link.url | absolute_url }}"
+        class="nav-link active"
+        aria-current="page"
+        >{{ link.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</header>
