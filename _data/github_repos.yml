@@ -22,4 +22,4 @@
 - title: My Portfolio
   url: https://meerkat81.github.io/my_portfolio/
   repo: https://github.com/Meerkat81/my_portfolio
-  description: A Jekyll assembled website for this portfolio.
+  description: A Jekyll assembled website combined with github's actions for CI\CD in for this portfolio.
