@@ -4,3 +4,6 @@
 .project-image {
   margin: 1rem;
 }
+* {
+  list-style: none;
+}

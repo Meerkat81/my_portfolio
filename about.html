@@ -7,41 +7,21 @@ layout: default
   <div class="col">
     <h1 class="display-6">Work Experience</h1>
     <ul>
-      <li>Green Ocean Sciences 8/2020 - 5/2023</li>
-      <p>
-        As a full stack developer used Javascript, HTML, CSS, Ruby, adn Python
-        utilized the frameworks and libraries; React, Express, Ruby on Rails,
-        tailwinds, Saltstack, Tailwinds , Sequlize created features and
-        addressed bugs for the SaaS Cann-id and Chem-id products. Third party
-        API included Quickbooks, AWS, and Sicpa Certus.
-      </p>
-      <li>Katerra 9/2018 - 10/2019</li>
-      <p>
-        Using lean agile methodology facilitated communications between
-        construction trades, ownership, and design team, to overcome project
-        design and logistical constraints. Helped create and track project
-        schedule.
-      </p>
-      <li>Batson-Cook Construction 9/2013 - 10/2017</li>
-      <p>
-        Using lean agile methodology facilitated communications between
-        construction trades, ownership, and design team, to overcome project
-        design and logistical constraints. Helped create and track project
-        schedule.
-      </p>
+      {% for job in site.data.employment %}
+      <li><strong>{{job.company}} {{job.date}}</strong></li>
+      <p>{{job.description}}</p>
+      {% endfor %}
     </ul>
   </div>
   <div class="col">
     <h1 class="display-6">Education</h1>
     <ul>
+      {% for school in site.data.education %}
       <li>
-        UT-San Antonio, Tx USA, Bachelors of Business Administration,
-        Construction Management 2008
+        <strong>{{school.degree}}</strong><br />
+        {{school.school}}, {{school.location}}, {{school.year}}
       </li>
-      <li>
-        Austin Community College, Austin Tx USA, Associates of Applied Science,
-        Computer Programming 2020
-      </li>
+      {% endfor %}
     </ul>
   </div>
 </div>
