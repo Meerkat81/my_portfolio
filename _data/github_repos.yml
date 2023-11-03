@@ -19,7 +19,7 @@
   repo: https://github.com/Meerkat81/fake-twitter
   description: A backend application using Express that replicates a simple twitter like experience.
 
-- title: My Portfolio
+- title: My Portfolio(this site)
   url: https://meerkat81.github.io/my_portfolio/
   repo: https://github.com/Meerkat81/my_portfolio
   description: A Jekyll assembled website combined with github's actions for CI\CD in for this portfolio.
