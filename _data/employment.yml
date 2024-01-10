@@ -1,8 +1,8 @@
-- company: Green Ocean Sciences
+- company: Chemid
   date: 8/2020 - 5/2023
   location: Austin, TX
-  description: As a full stack developer used Javascript, HTML, CSS, Ruby, adn Python utilized the frameworks and libraries; React, Express, Ruby on Rails, tailwinds, Saltstack, Tailwinds , Sequlize created features and addressed bugs for the SaaS Cann-id and Chem-id products. Third party API integrations; Quickbooks(OAuth and sdk), AWS, and Sicpa Certus.
-
+  description: As a full stack developer used Javascript, HTML, CSS, Ruby, and Python utilized the frameworks and libraries; React, Express, Ruby on Rails, tailwinds, Saltstack, Tailwinds , Sequlize created features and addressed bugs for the SaaS Cann-id and Chem-id products. Third party API integrations; Quickbooks(OAuth and sdk), AWS, and Sicpa Certus.
+  link: https://www.chemid.com/
 - company: Katerra
   date: 9/2018 - 10/2019
   location: Austin, TX
@@ -12,3 +12,4 @@
   date: 9/2013 - 10/2017
   location: Multiple, Tx Cities
   description: Using lean agile methodology facilitated communications between construction trades, ownership, and design team, to overcome project design and logistical constraints. Helped create and track project schedule.
+  link: https://www.batson-cook.com/

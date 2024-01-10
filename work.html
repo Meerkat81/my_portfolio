@@ -4,16 +4,29 @@ layout: default
 ---
 
 <div class="row row-cols-1 row-cols-lg-2 mt-2">
-  <div class="col">
+  <div class="col d-flex align-items-start">
     <h1 class="display-6">Work Experience</h1>
     <ul>
       {% for job in site.data.employment %}
-      <li><strong>{{job.company}} {{job.date}}</strong></li>
+      <li>
+        {% if job.link %}
+        <a
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+          target="_blank"
+          href="{{job.link}}"
+        >
+          <strong>{{job.company}}</strong></a
+        >
+        <strong>{{job.date}}</strong>
+        {% else %}
+        <strong>{{job.company}} {{job.date}}</strong>
+        {% endif %}
+      </li>
       <p>{{job.description}}</p>
       {% endfor %}
     </ul>
   </div>
-  <div class="col">
+  <div class="col d-flex align-items-start">
     <h1 class="display-6">Education</h1>
     <ul>
       {% for school in site.data.education %}
