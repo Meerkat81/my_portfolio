@@ -73,7 +73,14 @@ layout: default
           />
           {% endif %}
           <div class="card-body">
-            <h5 class="card-title">{{repo.title}}</h5>
+            {% if repo.url %}
+            <a href="{{repo.url}}" target="_blank"
+              >{%endif%}
+              <h5 class="card-title">{{repo.title}}</h5>
+              {% if repo.url %}</a
+            >
+            {%endif%}
+
             <p class="card-text">{{repo.description}}</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
