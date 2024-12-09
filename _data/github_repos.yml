@@ -1,25 +1,36 @@
 - title: Spotify Playlist Data
   url: https://spotify-playlist-fun.netlify.app
   repo: https://github.com/Meerkat81/spotify-playlist
-  description: A Project using React, HighCharts and Semantic UI, that queries Spotify to render playlist stats.
+  description: A front end project using React, HighCharts and Semantic UI, that queries Spotify API to render playlist stats.
   image: spotify-playlist.png
+  techs: JavaScript, React
+
+- title: ShittyPie
+  url: https://www.shittypie.com
+  repo: https://github.com/Meerkat81/shit_pizza
+  description: A Ruby on Rails application that lets users vote against pizza restaurants they would not visit again.
+  techs: Ruby on Rails, JavaScript, Postgres
 
 - title: Kiss Rocks backend
   url:
   repo: https://github.com/Meerkat81/kiss-rocks-front
-  description: The Ruby on Rails backend that records the api for 99.5 KISS FM San Antonio Tx USA and provides endpoints for the data.
+  description: A Ruby on Rails api application that records and organizes the track details the San Antonio Tx radio station 99.5 KISS FM and provides endpoints for the data.
+  techs: Ruby on Rails, Postgres
 
 - title: Kiss Rocks frontend
   url:
   repo: https://github.com/Meerkat81/kiss-rocks
-  description: The React frontend that uses high charts to render data of the kiss rocks api.
+  description: A frontend application that renders data of the kiss rocks api.
+  techs: JavaScript, React
 
 - title: Fake Twitter
   url:
   repo: https://github.com/Meerkat81/fake-twitter
   description: A backend application using Express that replicates a simple twitter like experience.
+  techs: Javascript, Express
 
 - title: My Portfolio(this site)
   url: https://meerkat81.github.io/my_portfolio/
   repo: https://github.com/Meerkat81/my_portfolio
   description: A Jekyll assembled website combined with github's actions for CI\CD in for this portfolio.
+  techs: Ruby, Jekyll
