@@ -2,11 +2,12 @@
 
 source 'https://rubygems.org'
 
- gem 'jekyll', '~> 4.2'
+ gem 'jekyll'
 
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem 'jekyll-timeago', '~> 0.13.1'
 end
 gem "webrick", "~> 1.8"
+gem 'stringio', '~> 3.1.2'
