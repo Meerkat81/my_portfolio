@@ -11,17 +11,17 @@
   description: A Ruby on Rails application that lets users vote against pizza restaurants they would not visit again.
   techs: Ruby on Rails, JavaScript, Postgres
 
-- title: Kiss Rocks backend
-  url:
-  repo: https://github.com/Meerkat81/kiss-rocks-front
-  description: A Ruby on Rails api application that records and organizes the track details the San Antonio Tx radio station 99.5 KISS FM and provides endpoints for the data.
-  techs: Ruby on Rails, Postgres
-
 - title: Kiss Rocks frontend
   url:
   repo: https://github.com/Meerkat81/kiss-rocks
   description: A frontend application that renders data of the kiss rocks api.
   techs: JavaScript, React
+
+- title: Kiss Rocks backend
+  url:
+  repo: https://github.com/Meerkat81/kiss-rocks-front
+  description: A Ruby on Rails api application that records and organizes the track details the San Antonio Tx radio station 99.5 KISS FM and provides endpoints for the data.
+  techs: Ruby on Rails, Postgres
 
 - title: Fake Twitter
   url:
