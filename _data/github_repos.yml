@@ -5,11 +5,11 @@
   image: spotify-playlist.png
   techs: JavaScript, React
 
-- title: ShittyPie
-  url: https://www.shittypie.com
-  repo: https://github.com/Meerkat81/shit_pizza
-  description: A Ruby on Rails application that lets users vote against pizza restaurants they would not visit again.
-  techs: Ruby on Rails, JavaScript, Postgres
+- title: ThePizzaChamp.com
+  url: https://www.thepizzachamp.com
+  repo: https://github.com/Meerkat81/boss-pizza
+  description: A Ruby on Rails application that lets users vote for pizza places they like in an effort to crown it pizza champ.
+  techs: Ruby on Rails, JavaScript, Postgres, third party api
 
 - title: Kiss Rocks frontend
   url:
