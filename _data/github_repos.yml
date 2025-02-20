@@ -9,6 +9,7 @@
   url: https://www.thepizzachamp.com
   repo: https://github.com/Meerkat81/boss-pizza
   description: A Ruby on Rails application that lets users vote for pizza places they like in an effort to crown it pizza champ.
+  image: pizza-champ.png
   techs: Ruby on Rails, JavaScript, Postgres, third party api
 
 - title: Kiss Rocks frontend
