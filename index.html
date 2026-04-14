@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div class="row row-cols-1 mt-2">
-  <div class="col-md-4 col-12">
+  <div class="col-lg-4 col-12">
     <div class="text-center">
       <img class="me" src="{{site.baseurl}}/assets/images/{{site.my_photo}}" />
     </div>
@@ -62,8 +62,8 @@ layout: default
       </li>
     </ul>
   </div>
-  <div class="col-md-8 col-12">
-    <div class="row row-cols-1 row-cols-md-2 g-1">
+  <div class="col-lg-8 col-12">
+    <div class="project-grid">
       {% assign myRepos = site.data.github_repos %} {% for repo in myRepos %}
       <div class="col">
         <div class="card shadow-sm">
