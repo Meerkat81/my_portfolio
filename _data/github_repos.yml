@@ -1,3 +1,9 @@
+- title: The Bumble Key
+  repo: https://github.com/Meerkat81/spotify-playlist
+  description: A full stack application using nextjs, supabase, typescript. Built using claude
+  image: bumblekey.png
+  techs: JavaScript, React, Nextjs, Typescript
+
 - title: Spotify Playlist Data
   repo: https://github.com/Meerkat81/spotify-playlist
   description: A front end project using React, HighCharts and Semantic UI, that queries Spotify API to render playlist stats.
