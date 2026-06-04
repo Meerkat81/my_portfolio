@@ -2,7 +2,7 @@
   repo: https://github.com/Meerkat81/spotify-playlist
   url: www.thebumblekey.com
   description: A full stack application using nextjs, supabase, typescript. Built using claude
-  image: bumblekey.png
+  image: bumble-key.png
   techs: JavaScript, React, Nextjs, Typescript
 
 - title: Spotify Playlist Data
