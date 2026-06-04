@@ -66,42 +66,7 @@ layout: default
     </div>
   </div>
   <div class="col-lg-8 col-12">
-    <div class="project-grid">
-      {% assign myRepos = site.data.github_repos %} {% for repo in myRepos %}
-      <div class="col">
-        <div class="card shadow-sm">
-          {% if repo.image %}<img
-            class="project-image"
-            src="{{site.baseurl}}/assets/images/{{repo.image}}"
-          />
-          {% endif %}
-          <div class="card-body">
-            {% if repo.url %}
-            <a href="{{repo.url}}" target="_blank"
-              >{%endif%}
-              <h5 class="card-title">{{repo.title}}</h5>
-              {% if repo.url %}</a
-            >
-            {%endif%}
-
-            <p class="card-text">{{repo.description}}</p>
-            <p class="card-text">{{repo.techs}}</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a href="{{repo.repo}}" target="_blank">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary m-1"
-                  >
-                    Github
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% include projects.html %}
+    
   </div>
 </div>
