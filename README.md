@@ -7,7 +7,7 @@
 build site and make it available on a local server
 
 ```
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve
 ```
 
 [Preview at http://localhost:4000](http://127.0.0.1:4000/my_portfolio//)
