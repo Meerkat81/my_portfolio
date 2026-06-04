@@ -1,5 +1,4 @@
 - title: Spotify Playlist Data
-  url: https://spotify-playlist-fun.netlify.app
   repo: https://github.com/Meerkat81/spotify-playlist
   description: A front end project using React, HighCharts and Semantic UI, that queries Spotify API to render playlist stats.
   image: spotify-playlist.png
@@ -34,3 +33,4 @@
   repo: https://github.com/Meerkat81/my_portfolio
   description: A Jekyll assembled website combined with github's actions for CI\CD in for this portfolio.
   techs: Ruby, Jekyll
+
