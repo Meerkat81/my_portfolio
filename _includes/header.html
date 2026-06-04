@@ -11,7 +11,7 @@
   <ul class="nav nav-pills">
     {% assign mypages = site.data.navigation | sort: "order" %} {% for link in
     mypages %}
-    <li class="nav-item">
+    <li class="nav-item{% if link.desktop_hidden %} d-lg-none{% endif %}">
       <a
         href="{{ link.url | absolute_url }}"
         class="nav-link {% if page.title == link.title %} active {% endif %}"

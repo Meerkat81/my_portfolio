@@ -5,3 +5,4 @@
 - title: Work History
   url: /work
   order: 2
+  desktop_hidden: true
